@@ -1,0 +1,115 @@
+html {
+  background-image: linear-gradient(
+  to bottom, white 0%, rgb(170, 187, 217) 100%);
+  min-width: fit-content;
+  overflow-x: auto;
+  overflow-y: scroll;
+  min-height: 454px;
+}
+
+/* @media screen is to prevent the page from collapsing and enabling overflow when max height is reached */
+@media screen and (max-height: 500px){
+  html{
+      overflow: auto;
+  }
+}
+
+/* Wrapper: starts */
+/* Wrapper holds the entire content apart from the background */
+.wrapper{
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  background-color: white;
+  border: 1px solid black;
+  margin-top: 44px;
+  margin-left: 31px;
+  margin-bottom: 45px;
+  margin-right: 25px;
+  box-shadow: 3px 3px 2px 0px rgb(133, 134, 138);
+}
+/* Wrapper: ends */
+
+header{
+  background-image: url("../images/sunset.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(0, 0, 50);
+  background-position: right;
+  color: white;
+}
+header h1{
+  margin: 0px;
+  padding:9px;
+}
+
+/* Nav Bar design: starts */
+.content-nav-holder{
+  width: 100%;
+}
+
+nav{
+  width: 180px;
+  float: left;
+  background-color: rgb(144, 199, 227);
+  font-weight: bold;
+  min-height: 454px;
+  max-height: 454px;
+}
+
+.navigation a{
+  color:rgb(19, 30, 56);
+  text-decoration: none;
+}
+
+/* Nav Bar design: ends */
+
+/* content-holder: starts */
+/* content-holder contains the coast photo parallelly placed with the content*/
+
+.content-holder{
+  margin: none;
+  width: 100%;
+}
+
+.content-holder h4{
+  margin: 0px;
+}
+
+.image-heading-holder{
+  float: left;
+  margin-top: 17px;
+  margin-inline: 17px;
+}
+
+.image-heading-holder h3{
+  margin:0;
+  padding-bottom: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+  color: rgb(64, 147, 198)
+}
+
+.introduction-content{
+  padding-top: 52px;
+  color: grey;
+}
+
+.activities-list{
+  color: grey;
+  padding-left: 469px;
+}
+
+.footer{
+  margin-block-start: 193px;
+  margin-block-end: 5px;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  color: grey;
+}
+
+#email{
+  align-items: center;
+  padding-left: 80px;
+  color: rgb(78, 71, 189);
+}
+/* content-holder: ends */
